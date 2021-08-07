@@ -68,14 +68,14 @@ MonoBehaviour:
     y: 373
     width: 1366
     height: 272
-  m_MinSize: {x: 230, y: 272}
-  m_MaxSize: {x: 10000, y: 10022}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,10 +97,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 645
-  m_MinSize: {x: 887, y: 494}
-  m_MaxSize: {x: 16012, y: 14044}
+  m_MinSize: {x: 887, y: 344}
+  m_MaxSize: {x: 16012, y: 8044}
   vertical: 1
-  controlID: 88
+  controlID: 123
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,8 +120,8 @@ MonoBehaviour:
     y: 0
     width: 429
     height: 373
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 222}
   m_MaxSize: {x: 16012, y: 4022}
   vertical: 0
-  controlID: 89
+  controlID: 124
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
   vertical: 0
-  controlID: 112
+  controlID: 125
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -292,8 +292,8 @@ MonoBehaviour:
     y: 0
     width: 428
     height: 373
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -486,20 +486,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/UI_System/Code/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/UI_System/Code/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Probook\Documents\ReusableUI
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00290000
-    m_LastClickedID: 10496
-    m_ExpandedIDs: 0000000000290000262a000000ca9a3b
+    scrollPos: {x: 0, y: 19}
+    m_SelectedIDs: 24290000
+    m_LastClickedID: 10532
+    m_ExpandedIDs: 0000000000290000262a0000a82a00003a2b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -552,8 +552,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 922c0000
+    m_LastClickedInstanceID: 11410
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300002e090300b43b010000000000
     m_RenameOverlay:
@@ -571,7 +571,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -646,10 +646,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 47}
-      m_SelectedIDs: 2ee8ffff
-      m_LastClickedID: -6098
-      m_ExpandedIDs: 2ee8ffffecedffff46faffff8efbffff922b0000f22b00004e2c0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 9a2b0000
+      m_LastClickedID: 11162
+      m_ExpandedIDs: 8efbffff922c0000402d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
