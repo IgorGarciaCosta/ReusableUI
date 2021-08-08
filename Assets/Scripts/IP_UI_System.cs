@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 
     public class IP_UI_System : MonoBehaviour
@@ -78,8 +79,9 @@ using UnityEngine.Events;
             }
         }
 
-        public void LoadScene(int sceneIndex){
-            StartCoroutine(WaitToLoad(sceneIndex));
+        public void LoadScene(string name){
+            //StartCoroutine(WaitToLoad(sceneIndex));
+            SceneManager.LoadScene(name);
         }
 
         IEnumerator WaitToLoad(int sceneIndex){
